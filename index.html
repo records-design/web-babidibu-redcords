@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Babidibu Records — Sello discográfico infantil</title>
+
+  <meta
+    name="description"
+    content="Babidibu Records es un sello discográfico infantil que desarrolla artistas, música, personajes, videoclips y contenidos audiovisuales para las infancias."
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800;900&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header class="site-header" id="siteHeader">
+    <a href="#hero" class="site-logo" aria-label="Babidibu Records">
+      <img src="imagenes-babidibu-records/logo-babidibu-final.png" alt="Babidibu Records">
+    </a>
+
+    <nav class="site-nav">
+      <a href="#artistas">Artistas</a>
+      <a href="#proceso">Nosotros</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#lanzamientos">Lanzamientos</a>
+      <a href="#babidibutv">Babidibu TV</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <a href="#contacto" class="nav-button">Presentar proyecto</a>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+
+      <div class="hero-bg" aria-hidden="true">
+        <div class="gradient-orb orb-lime"></div>
+        <div class="gradient-orb orb-pink"></div>
+        <div class="gradient-orb orb-yellow"></div>
+        <div class="gradient-orb orb-orange"></div>
+        <div class="gradient-orb orb-blue"></div>
+        <div class="eq-visualizer">
+          <span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span>
+        </div>
+        <div class="music-floats">
+          <!-- Notas musicales — 8 para mayor densidad -->
+          <span class="music-float mf-1">♪</span>
+          <span class="music-float mf-2">♫</span>
+          <span class="music-float mf-3">♩</span>
+          <span class="music-float mf-4">♬</span>
+          <span class="music-float mf-5">♪</span>
+          <span class="music-float mf-6">♫</span>
+          <span class="music-float mf-7">♩</span>
+          <span class="music-float mf-8">♬</span>
+          <!-- Sparkles / estrellas -->
+          <span class="hero-sparkle hs-1">✦</span>
+          <span class="hero-sparkle hs-2">✦</span>
+          <span class="hero-sparkle hs-3">✧</span>
+          <span class="hero-sparkle hs-4">✦</span>
+          <span class="hero-sparkle hs-5">✧</span>
+          <span class="hero-sparkle hs-6">✦</span>
+          <!-- Dots de color -->
+          <span class="hero-dot hd-1"></span>
+          <span class="hero-dot hd-2"></span>
+          <span class="hero-dot hd-3"></span>
+          <span class="hero-dot hd-4"></span>
+          <span class="hero-dot hd-5"></span>
+          <span class="hero-dot hd-6"></span>
+        </div>
+      </div>
+
+      <!-- Titular — badge + título en 4 líneas + subtítulo -->
+      <div class="hero-headline">
+        <span class="hero-badge">Sello Discográfico Infantil</span>
+        <h1>
+          <span class="hw hw-1">IMPULSAMOS EL ENTRETENIMIENTO</span>
+          <span class="hw hw-2">INFANTIL DESDE UNA VISIÓN 360°</span>
+        </h1>
+        <p class="hero-sub">Desarrollamos artistas, personajes y universos musicales para las infancias. Del concepto al lanzamiento, acompañamos cada etapa de tu proyecto.</p>
+      </div>
+
+      <!-- CTAs — debajo del título -->
+      <div class="hero-ctas">
+        <a href="#contacto" class="btn btn-primary">Presentar proyecto</a>
+        <a href="#artistas" class="btn btn-secondary">Ver artistas</a>
+      </div>
+
+      <!-- ARTISTAS — rail auto-scroll, todos visibles, loop infinito -->
+      <div class="ha-rail-wrap" id="artistRail" aria-label="Artistas del sello">
+        <div class="ha-rail">
+
+          <!-- SET 1 — orden: Benito, Chani, Trillizas (centro), Dani, Chiquito -->
+          <article class="ha-card ha--orange">
+            <div class="ha-media"><video autoplay muted loop playsinline><source src="imagenes-babidibu-records/video-benito-tomasa-vertical.mp4" type="video/mp4"></video></div>
+            <div class="ha-overlay"></div>
+            <div class="ha-info">
+              <span class="ha-category">Videoclip</span>
+              <h3>Benito y Tomasa</h3>
+              <div class="ha-song-row"><button class="ha-play-btn" aria-label="Reproducir Benito y Tomasa"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></button><span class="ha-song">Pajarito Verde</span></div>
+            </div>
+          </article>
+
+          <article class="ha-card ha--lime">
+            <div class="ha-media"><video autoplay muted loop playsinline><source src="imagenes-babidibu-records/video-chani-vertical.mp4" type="video/mp4"></video></div>
+            <div class="ha-overlay"></div>
+            <div class="ha-info">
+              <span class="ha-category">Nuevo</span>
+              <h3>El Mundo de Chani</h3>
+              <div class="ha-song-row"><button class="ha-play-btn" aria-label="Reproducir El Mundo de Chani"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></button><span class="ha-song">Vamos Vamos Argentina! 🇦🇷</span></div>
+            </div>
+          </article>
+
+          <article class="ha-card ha--yellow">
+            <div class="ha-media"><video autoplay muted loop playsinline><source src="imagenes-babidibu-records/video-lastrillizas-vertical.mp4" type="video/mp4"></video></div>
+            <div class="ha-overlay"></div>
+            <div class="ha-info">
+              <span class="ha-category">Pop infantil</span>
+              <h3>Las Trillizas de Oro</h3>
+              <div class="ha-song-row"><button class="ha-play-btn" aria-label="Reproducir Las Trillizas de Oro"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></button><span class="ha-song">La Locomotora</span></div>
+            </div>
+          </article>
+
+          <article class="ha-card ha--blue">
+            <div class="ha-media"><video autoplay muted loop playsinline><source src="imagenes-babidibu-records/video-rincon-dani.mp4.mp4" type="video/mp4"></video></div>
+            <div class="ha-overlay"></div>
+            <div class="ha-info">
+              <span class="ha-category">Serie</span>
+              <h3>El Rincón de Dani</h3>
+              <div class="ha-song-row"><button class="ha-play-btn" aria-label="Reproducir El Rincón de Dani"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></button><span class="ha-song">Sueña, Crea, Imagina</span></div>
+            </div>
+          </article>
+
+          <article class="ha-card ha--pink">
+            <div class="ha-media"><video autoplay muted loop playsinline><source src="imagenes-babidibu-records/video-hola-soy-chiquito-vertical.mp4.mp4" type="video/mp4"></video></div>
+            <div class="ha-overlay"></div>
+            <div class="ha-info">
+              <span class="ha-category">Personaje</span>
+              <h3>Hola Soy Chiquito</h3>
+              <div class="ha-song-row"><button class="ha-play-btn" aria-label="Reproducir Hola Soy Chiquito"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></button><span class="ha-song">Chu Chu Ua</span></div>
+            </div>
+          </article>
+
+          <!-- SET 2 — duplicado para loop sin corte -->
+          <article class="ha-card ha--orange" aria-hidden="true">
+            <div class="ha-media"><video autoplay muted loop playsinline><source src="imagenes-babidibu-records/video-benito-tomasa-vertical.mp4" type="video/mp4"></video></div>
+            <div class="ha-overlay"></div>
+            <div class="ha-info"><span class="ha-category">Videoclip</span><h3>Benito y Tomasa</h3><div class="ha-song-row"><button class="ha-play-btn" aria-label="Reproducir Benito y Tomasa"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></button><span class="ha-song">Pajarito Verde</span></div></div>
+          </article>
+
+          <article class="ha-card ha--lime" aria-hidden="true">
+            <div class="ha-media"><video autoplay muted loop playsinline><source src="imagenes-babidibu-records/video-chani-vertical.mp4" type="video/mp4"></video></div>
+            <div class="ha-overlay"></div>
+            <div class="ha-info"><span class="ha-category">Nuevo</span><h3>El Mundo de Chani</h3><div class="ha-song-row"><button class="ha-play-btn" aria-label="Reproducir El Mundo de Chani"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></button><span class="ha-song">Vamos Vamos Argentina! 🇦🇷</span></div></div>
+          </article>
+
+          <article class="ha-card ha--yellow" aria-hidden="true">
+            <div class="ha-media"><video autoplay muted loop playsinline><source src="imagenes-babidibu-records/video-lastrillizas-vertical.mp4" type="video/mp4"></video></div>
+            <div class="ha-overlay"></div>
+            <div class="ha-info"><span class="ha-category">Pop infantil</span><h3>Las Trillizas de Oro</h3><div class="ha-song-row"><button class="ha-play-btn" aria-label="Reproducir Las Trillizas de Oro"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></button><span class="ha-song">La Locomotora</span></div></div>
+          </article>
+
+          <article class="ha-card ha--blue" aria-hidden="true">
+            <div class="ha-media"><video autoplay muted loop playsinline><source src="imagenes-babidibu-records/video-rincon-dani.mp4.mp4" type="video/mp4"></video></div>
+            <div class="ha-overlay"></div>
+            <div class="ha-info"><span class="ha-category">Serie</span><h3>El Rincón de Dani</h3><div class="ha-song-row"><button class="ha-play-btn" aria-label="Reproducir El Rincón de Dani"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></button><span class="ha-song">Sueña, Crea, Imagina</span></div></div>
+          </article>
+
+          <article class="ha-card ha--pink" aria-hidden="true">
+            <div class="ha-media"><video autoplay muted loop playsinline><source src="imagenes-babidibu-records/video-hola-soy-chiquito-vertical.mp4.mp4" type="video/mp4"></video></div>
+            <div class="ha-overlay"></div>
+            <div class="ha-info"><span class="ha-category">Personaje</span><h3>Hola Soy Chiquito</h3><div class="ha-song-row"><button class="ha-play-btn" aria-label="Reproducir Hola Soy Chiquito"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></button><span class="ha-song">Chu Chu Ua</span></div></div>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- placeholder para que el Edit no rompa el bloque duplicado del viejo videoBand -->
+      <div class="video-band-wrap" id="videoBand-legacy" aria-hidden="true" style="display:none"><div class="video-band" id="videoBand">
+
+          <!-- SET 1 -->
+          <article class="vb-card vb--yellow">
+            <div class="vb-media">
+              <video autoplay muted loop playsinline>
+                <source src="imagenes-babidibu-records/video-lastrillizas-vertical.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="vb-label">
+              <span class="vb-badge vb-badge--yellow">Pop infantil</span>
+              <strong>Las Trillizas de Oro</strong>
+              <span class="vb-sub">Grupo musical</span>
+            </div>
+          </article>
+
+          <article class="vb-card vb--lime">
+            <div class="vb-media">
+              <video autoplay muted loop playsinline>
+                <source src="imagenes-babidibu-records/video-chani-vertical.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="vb-label">
+              <span class="vb-badge vb-badge--lime">Nuevo</span>
+              <strong>El Mundo de Chani</strong>
+              <span class="vb-sub">Artista · Personaje</span>
+            </div>
+          </article>
+
+          <article class="vb-card vb--orange">
+            <div class="vb-media">
+              <video autoplay muted loop playsinline>
+                <source src="imagenes-babidibu-records/video-benito-tomasa-vertical.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="vb-label">
+              <span class="vb-badge">Videoclip</span>
+              <strong>Benito y Tomasa</strong>
+              <span class="vb-sub">Dúo musical</span>
+            </div>
+          </article>
+
+          <article class="vb-card vb--blue">
+            <div class="vb-media">
+              <video autoplay muted loop playsinline>
+                <source src="imagenes-babidibu-records/video-rincon-dani.mp4.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="vb-label">
+              <span class="vb-badge vb-badge--blue">Serie</span>
+              <strong>El Rincón de Dani</strong>
+              <span class="vb-sub">Serie musical</span>
+            </div>
+          </article>
+
+          <article class="vb-card vb--pink">
+            <div class="vb-media">
+              <video autoplay muted loop playsinline>
+                <source src="imagenes-babidibu-records/video-hola-soy-chiquito-vertical.mp4.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="vb-label">
+              <span class="vb-badge vb-badge--pink">Personaje</span>
+              <strong>Hola Soy Chiquito</strong>
+              <span class="vb-sub">Artista · Personaje</span>
+            </div>
+          </article>
+
+          <!-- SET 2 — duplicado para loop infinito sin corte -->
+          <article class="vb-card vb--yellow vb-dup" aria-hidden="true">
+            <div class="vb-media">
+              <video autoplay muted loop playsinline>
+                <source src="imagenes-babidibu-records/video-lastrillizas-vertical.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="vb-label">
+              <span class="vb-badge vb-badge--yellow">Pop infantil</span>
+              <strong>Las Trillizas de Oro</strong>
+              <span class="vb-sub">Grupo musical</span>
+            </div>
+          </article>
+
+          <article class="vb-card vb--lime vb-dup" aria-hidden="true">
+            <div class="vb-media">
+              <video autoplay muted loop playsinline>
+                <source src="imagenes-babidibu-records/video-chani-vertical.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="vb-label">
+              <span class="vb-badge vb-badge--lime">Nuevo</span>
+              <strong>El Mundo de Chani</strong>
+              <span class="vb-sub">Artista · Personaje</span>
+            </div>
+          </article>
+
+          <article class="vb-card vb--orange vb-dup" aria-hidden="true">
+            <div class="vb-media">
+              <video autoplay muted loop playsinline>
+                <source src="imagenes-babidibu-records/video-benito-tomasa-vertical.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="vb-label">
+              <span class="vb-badge">Videoclip</span>
+              <strong>Benito y Tomasa</strong>
+              <span class="vb-sub">Dúo musical</span>
+            </div>
+          </article>
+
+          <article class="vb-card vb--blue vb-dup" aria-hidden="true">
+            <div class="vb-media">
+              <video autoplay muted loop playsinline>
+                <source src="imagenes-babidibu-records/video-rincon-dani.mp4.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="vb-label">
+              <span class="vb-badge vb-badge--blue">Serie</span>
+              <strong>El Rincón de Dani</strong>
+              <span class="vb-sub">Serie musical</span>
+            </div>
+          </article>
+
+          <article class="vb-card vb--pink vb-dup" aria-hidden="true">
+            <div class="vb-media">
+              <video autoplay muted loop playsinline>
+                <source src="imagenes-babidibu-records/video-hola-soy-chiquito-vertical.mp4.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="vb-label">
+              <span class="vb-badge vb-badge--pink">Personaje</span>
+              <strong>Hola Soy Chiquito</strong>
+              <span class="vb-sub">Artista · Personaje</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- TICKER — banda continua de marca Babidibu Records -->
+    <section class="marquee-section" aria-hidden="true">
+      <div class="marquee-track">
+        <!-- Set 1 — 16 logos originales -->
+        <img src="imagenes-babidibu-records/logo-babidibu-final.png" class="marquee-brand-logo" alt="Babidibu Records">
+        <img src="imagenes-babidibu-records/logo-babidibu-final.png" class="marquee-brand-logo" alt="Babidibu Records">
+        <img src="imagenes-babidibu-records/logo-babidibu-final.png" class="marquee-brand-logo" alt="Babidibu Records">
+        <img src="imagenes-babidibu-records/logo-babidibu-final.png" class="marquee-brand-logo" alt="Babidibu Records">
+        <img src="imagenes-babidibu-records/logo-babidibu-final.png" class="marquee-brand-logo" alt="Babidibu Records">
+        <img src="imagenes-babidibu-records/logo-babidibu-final.png" class="marquee-brand-logo" alt="Babidibu Records">
+        <img src="imagenes-babidibu-records/logo-babidibu-final.png" class="marquee-brand-logo" alt="Babidibu Records">
+        <img src="imagenes-babidibu-records/logo-babidibu-final.png" class="marquee-brand-logo" alt="Babidibu Records">
+        <img src="imagenes-babidibu-records/logo-babidibu-final.png" class="marquee-brand-logo" alt="Babidibu Records">
+        <img src="imagenes-babidibu-records/logo-babidibu-final.png" class="marquee-brand-logo" alt="Babidibu Records">
+        <img src="imagenes-babidibu-records/logo-babidibu-final.png" class="marquee-brand-logo" alt="Babidibu Records">
+        <img src="imagenes-babidibu-records/logo-babidibu-final.png" class="marquee-brand-logo" alt="Babidibu Records">
+        <img src="imagenes-babidibu-records/logo-babidibu-final.png" class="marquee-brand-logo" alt="Babidibu Records">
+        <img src="imagenes-babidibu-records/logo-babidibu-final.png" class="marquee-brand-logo" alt="Babidibu Records">
+        <img src="imagenes-babidibu-records/logo-babidibu-final.png" class="marquee-brand-logo" alt="Babidibu Records">
+        <img src="imagenes-babidibu-records/logo-babidibu-final.png" class="marquee-brand-logo" alt="Babidibu Records">
+        <!-- Set 2 — 16 logos duplicados para loop sin corte visible -->
+        <img src="imagenes-babidibu-records/logo-babidibu-final.png" class="marquee-brand-logo" alt="Babidibu Records">
+        <img src="imagenes-babidibu-records/logo-babidibu-final.png" class="marquee-brand-logo" alt="Babidibu Records">
+        <img src="imagenes-babidibu-records/logo-babidibu-final.png" class="marquee-brand-logo" alt="Babidibu Records">
+        <img src="imagenes-babidibu-records/logo-babidibu-final.png" class="marquee-brand-logo" alt="Babidibu Records">
+        <img src="imagenes-babidibu-records/logo-babidibu-final.png" class="marquee-brand-logo" alt="Babidibu Records">
+        <img src="imagenes-babidibu-records/logo-babidibu-final.png" class="marquee-brand-logo" alt="Babidibu Records">
+        <img src="imagenes-babidibu-records/logo-babidibu-final.png" class="marquee-brand-logo" alt="Babidibu Records">
+        <img src="imagenes-babidibu-records/logo-babidibu-final.png" class="marquee-brand-logo" alt="Babidibu Records">
+        <img src="imagenes-babidibu-records/logo-babidibu-final.png" class="marquee-brand-logo" alt="Babidibu Records">
+        <img src="imagenes-babidibu-records/logo-babidibu-final.png" class="marquee-brand-logo" alt="Babidibu Records">
+        <img src="imagenes-babidibu-records/logo-babidibu-final.png" class="marquee-brand-logo" alt="Babidibu Records">
+        <img src="imagenes-babidibu-records/logo-babidibu-final.png" class="marquee-brand-logo" alt="Babidibu Records">
+        <img src="imagenes-babidibu-records/logo-babidibu-final.png" class="marquee-brand-logo" alt="Babidibu Records">
+        <img src="imagenes-babidibu-records/logo-babidibu-final.png" class="marquee-brand-logo" alt="Babidibu Records">
+        <img src="imagenes-babidibu-records/logo-babidibu-final.png" class="marquee-brand-logo" alt="Babidibu Records">
+        <img src="imagenes-babidibu-records/logo-babidibu-final.png" class="marquee-brand-logo" alt="Babidibu Records">
+      </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section class="section services" id="servicios">
+      <div class="container">
+
+        <div class="section-header" data-reveal>
+          <p class="eyebrow">Servicios del sello</p>
+          <h2>Todo lo que tu proyecto necesita para crecer.</h2>
+          <p>
+            Publishing, producción, distribución, live y marketing.
+            Acompañamos cada etapa del desarrollo de tu proyecto de entretenimiento infantil, desde la primera canción hasta el lanzamiento global.
+          </p>
+        </div>
+
+        <div class="service-grid">
+
+          <article class="service-card service-card--lime" data-reveal data-reveal-delay="1">
+            <div class="sc-number">01</div>
+            <div class="sc-body">
+              <h3>Artistas &amp; Songwriters</h3>
+              <p>Desarrollamos artistas con propósito. Desde la identidad sonora hasta la narrativa de marca, construimos el universo que conecta con las infancias y sus familias.</p>
+              <div class="sc-tags">
+                <span>Desarrollo artístico</span>
+                <span>Composición</span>
+                <span>Representación</span>
+                <span>Carrera musical</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card service-card--pink" data-reveal data-reveal-delay="2">
+            <div class="sc-number">02</div>
+            <div class="sc-body">
+              <h3>Publishing</h3>
+              <p>Registramos, administramos y potenciamos el valor de tus canciones. Generamos oportunidades de sync, licensing y explotación del catálogo en múltiples territorios.</p>
+              <div class="sc-tags">
+                <span>Derechos de autor</span>
+                <span>Editorial musical</span>
+                <span>Catálogo</span>
+                <span>Sincronizaciones</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card service-card--orange" data-reveal data-reveal-delay="3">
+            <div class="sc-number">03</div>
+            <div class="sc-body">
+              <h3>Shows &amp; Venue</h3>
+              <p>Diseñamos y producimos shows en vivo, giras y experiencias presenciales que convierten la música en momentos reales entre el artista y su audiencia.</p>
+              <div class="sc-tags">
+                <span>Shows en vivo</span>
+                <span>Producción escénica</span>
+                <span>Giras</span>
+                <span>Booking</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card service-card--blue" data-reveal data-reveal-delay="4">
+            <div class="sc-number">04</div>
+            <div class="sc-body">
+              <h3>Producción Musical</h3>
+              <p>Del concepto al master. Songwriting, arreglos, grabación, mix y mastering con dirección artística orientada al mercado del entretenimiento infantil global.</p>
+              <div class="sc-tags">
+                <span>Songwriting</span>
+                <span>Mix &amp; Master</span>
+                <span>Dirección artística</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card service-card--yellow" data-reveal data-reveal-delay="5">
+            <div class="sc-number">05</div>
+            <div class="sc-body">
+              <h3>Proyectos Audiovisuales</h3>
+              <p>Videoclips, series y contenido original para plataformas de streaming y redes sociales. Del concepto a la pantalla, producción diseñada para las infancias del siglo XXI.</p>
+              <div class="sc-tags">
+                <span>Videoclips</span>
+                <span>Series Verticales</span>
+                <span>Streaming</span>
+                <span>Social Media</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card service-card--pink" data-reveal data-reveal-delay="6">
+            <div class="sc-number">06</div>
+            <div class="sc-body">
+              <h3>Marketing Digital</h3>
+              <p>Llevamos tu música a las plataformas principales y diseñamos la estrategia digital para que tu proyecto crezca, se posicione y construya audiencia real y sostenible.</p>
+              <div class="sc-tags">
+                <span>Distribución digital</span>
+                <span>Estrategia de contenidos</span>
+                <span>Audiencia</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ARTISTAS -->
+    <section class="section artists" id="artistas">
+      <div class="container">
+
+        <div class="section-header" data-reveal>
+          <p class="eyebrow">Artistas &amp; Universos Musicales</p>
+          <h2>Proyectos reales<br>con identidad propia.</h2>
+          <p>
+            Cada artista que integra Babidibu Records es una propiedad intelectual con vida propia:
+            canciones originales, personajes, narrativas y contenidos audiovisuales diseñados para conectar con las infancias y sus familias.
+          </p>
+        </div>
+
+        <div class="ap-grid">
+
+          <!-- Las Trillizas de Oro — FEATURED -->
+          <article class="ap-card ap-featured ap--yellow" data-reveal>
+            <div class="ap-image-wrap">
+              <img src="imagenes-babidibu-records/foto-lastrillizas.png" alt="Las Trillizas de Oro" loading="lazy">
+            </div>
+            <div class="ap-card-body">
+              <div class="ap-tags">
+                <span>Pop infantil</span>
+                <span>Streaming</span>
+                <span>Shows</span>
+              </div>
+              <h3>Las Trillizas de Oro</h3>
+              <div class="ap-bio-wrap">
+                <p class="ap-bio">Proyecto de entretenimiento infantil que celebra el legado de Las Trillizas de Oro a través de música, fantasía y narrativa emocional, combinando live action, un universo mágico y una propuesta visual contemporánea inspirada en la música K-Pop.</p>
+                <button class="ap-bio-toggle" type="button" aria-expanded="false">
+                  <span class="ap-bio-toggle-text">Leer bio completa</span>
+                  <svg class="ap-toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+              </div>
+              <div class="ap-socials">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="ap-social" aria-label="Instagram de Las Trillizas de Oro">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="ap-social" aria-label="YouTube de Las Trillizas de Oro">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="ap-social" aria-label="TikTok de Las Trillizas de Oro">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="ap-social" aria-label="Spotify de Las Trillizas de Oro">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- El Mundo de Chani — destacada, igual jerarquía que Las Trillizas -->
+          <article class="ap-card ap-featured ap--lime" data-reveal data-reveal-delay="1">
+            <div class="ap-image-wrap">
+              <img src="imagenes-babidibu-records/foto-chani.png" alt="El Mundo de Chani" loading="lazy">
+            </div>
+            <div class="ap-card-body">
+              <div class="ap-tags">
+                <span>Artista</span>
+                <span>Personaje</span>
+              </div>
+              <h3>El Mundo de Chani</h3>
+              <div class="ap-bio-wrap">
+                <p class="ap-bio">El Mundo de Chani es una franquicia infantojuvenil transmedia que va más allá de un programa: es un ecosistema educativo y musical. Liderado por Chani, conecta con niños a través de la música, el humor y la curiosidad.</p>
+                <button class="ap-bio-toggle" type="button" aria-expanded="false">
+                  <span class="ap-bio-toggle-text">Leer bio completa</span>
+                  <svg class="ap-toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+              </div>
+              <div class="ap-socials">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="ap-social" aria-label="Instagram de El Mundo de Chani">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="ap-social" aria-label="YouTube de El Mundo de Chani">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="ap-social" aria-label="Spotify de El Mundo de Chani">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Benito y Tomasa -->
+          <article class="ap-card ap--orange" data-reveal data-reveal-delay="2">
+            <div class="ap-image-wrap">
+              <img src="imagenes-babidibu-records/foto-benito-tomasa.png" alt="Benito y Tomasa" loading="lazy">
+            </div>
+            <div class="ap-card-body">
+              <div class="ap-tags">
+                <span>Dúo musical</span>
+                <span>Familia</span>
+              </div>
+              <h3>Benito y Tomasa</h3>
+              <div class="ap-bio-wrap">
+                <p class="ap-bio">Proyecto de música infantil con ADN rockero que combina canciones originales, personajes entrañables y una propuesta visual y educativa diseñada para inspirar creatividad, diversión y aprendizaje en toda la familia.</p>
+                <button class="ap-bio-toggle" type="button" aria-expanded="false">
+                  <span class="ap-bio-toggle-text">Leer bio completa</span>
+                  <svg class="ap-toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+              </div>
+              <div class="ap-socials">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="ap-social" aria-label="Instagram de Benito y Tomasa">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="ap-social" aria-label="YouTube de Benito y Tomasa">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="ap-social" aria-label="TikTok de Benito y Tomasa">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- El Rincón de Dani -->
+          <article class="ap-card ap--blue" data-reveal data-reveal-delay="3">
+            <div class="ap-image-wrap">
+              <img src="imagenes-babidibu-records/foto-dani.png" alt="El Rincón de Dani" loading="lazy">
+            </div>
+            <div class="ap-card-body">
+              <div class="ap-tags">
+                <span>Serie musical</span>
+                <span>Streaming</span>
+              </div>
+              <h3>El Rincón de Dani</h3>
+              <div class="ap-bio-wrap">
+                <p class="ap-bio">Daniella Mastricchio, actriz y cantante argentina, conquistó a una generación como Sol Rivera en Chiquititas. Hoy lidera El Rincón de Dani, un espacio creativo de música, juegos y cuentos, consolidándose como referente del entretenimiento familiar.</p>
+                <button class="ap-bio-toggle" type="button" aria-expanded="false">
+                  <span class="ap-bio-toggle-text">Leer bio completa</span>
+                  <svg class="ap-toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+              </div>
+              <div class="ap-socials">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="ap-social" aria-label="Instagram de El Rincón de Dani">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="ap-social" aria-label="YouTube de El Rincón de Dani">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="ap-social" aria-label="Spotify de El Rincón de Dani">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Hola, Soy Chiquito -->
+          <article class="ap-card ap--pink" data-reveal data-reveal-delay="4">
+            <div class="ap-image-wrap">
+              <img src="imagenes-babidibu-records/foto-chiquito.png" alt="Hola, Soy Chiquito" loading="lazy">
+            </div>
+            <div class="ap-card-body">
+              <div class="ap-tags">
+                <span>Artista</span>
+                <span>Pop</span>
+              </div>
+              <h3>Hola, Soy Chiquito</h3>
+              <div class="ap-bio-wrap">
+                <p class="ap-bio">Es el mejor amigo virtual de la primera infancia: una marca nativa digital que ofrece contenido dinámico, seguro y estimulante, creando una conexión emocional cercana y de confianza con niños y familias a través del juego, la música y el aprendizaje.</p>
+                <button class="ap-bio-toggle" type="button" aria-expanded="false">
+                  <span class="ap-bio-toggle-text">Leer bio completa</span>
+                  <svg class="ap-toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+              </div>
+              <div class="ap-socials">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="ap-social" aria-label="Instagram de Hola Soy Chiquito">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="ap-social" aria-label="YouTube de Hola Soy Chiquito">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="ap-social" aria-label="TikTok de Hola Soy Chiquito">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="ap-social" aria-label="Spotify de Hola Soy Chiquito">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- LANZAMIENTOS -->
+    <section class="section releases" id="lanzamientos">
+      <div class="container">
+
+        <div class="section-header">
+          <p class="eyebrow">Nuevos lanzamientos</p>
+          <h2>Escuchá lo nuevo.</h2>
+          <p>Los últimos lanzamientos del sello, disponibles ahora en todas las plataformas.</p>
+        </div>
+
+        <div class="release-grid">
+
+          <article class="release-card">
+            <div class="release-art"></div>
+            <div class="release-content">
+              <p>Las Trillizas de Oro</p>
+              <h3>La Locomotora</h3>
+              <span>Single · 2026</span>
+              <a href="#" class="btn btn-small">Escuchar ahora</a>
+            </div>
+          </article>
+
+          <article class="release-card">
+            <div class="release-art">
+              <img src="imagenes-babidibu-records/las-hinchadas-del-mundial.png" alt="Las Hinchadas del Mundial">
+            </div>
+            <div class="release-content">
+              <p>El Mundo de Chani</p>
+              <h3>Las Hinchadas del Mundial</h3>
+              <span>Single · 2026</span>
+
+              <!-- Audio element -->
+              <audio id="audio-hinchadas" preload="metadata">
+                <source src="imagenes-babidibu-records/Vamos Vamos Argentina!  - El Mundo de Chani.mp3" type="audio/mpeg">
+              </audio>
+
+              <!-- Mini Player compacto -->
+              <div class="mplayer" id="player-hinchadas">
+
+                <!-- Fila superior: Play + título alineados -->
+                <div class="mplayer-row">
+                  <button class="mplayer-btn" id="btn-hinchadas" type="button" aria-label="Reproducir">
+                    <svg class="mplayer-icon mplayer-icon-play" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                    <svg class="mplayer-icon mplayer-icon-pause" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+                  </button>
+                  <div class="mplayer-titles">
+                    <span class="mplayer-song">Vamos Vamos Argentina! 🇦🇷</span>
+                    <span class="mplayer-artist">El Mundo de Chani</span>
+                  </div>
+                </div>
+
+                <!-- Barra de progreso + tiempo -->
+                <div class="mplayer-progress" id="progress-hinchadas" role="slider" aria-label="Progreso" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" tabindex="0">
+                  <div class="mplayer-bar" id="bar-hinchadas"></div>
+                  <div class="mplayer-handle" id="handle-hinchadas"></div>
+                </div>
+                <div class="mplayer-time">
+                  <span id="time-curr-hinchadas">0:00</span>
+                  <span id="time-tot-hinchadas">–:––</span>
+                </div>
+
+              </div>
+
+              <!-- Plataformas externas -->
+              <div class="release-platforms">
+                <a href="https://www.youtube.com/playlist?list=PLTrBJxJSs6iuc_clOTkeqBWCIk_gMFm-Z"
+                   target="_blank" rel="noopener noreferrer"
+                   class="release-platform-btn release-platform-yt"
+                   aria-label="Ver Las Hinchadas del Mundial en YouTube">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                  <span>YouTube</span>
+                </a>
+                <a href="https://open.spotify.com/album/1F7oSbJnNarWXesNE6pP0z?si=jXkV_blNR_CSuGgF8sCZFg"
+                   target="_blank" rel="noopener noreferrer"
+                   class="release-platform-btn release-platform-sp"
+                   aria-label="Escuchar Las Hinchadas del Mundial en Spotify">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
+                  <span>Spotify</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROCESO -->
+    <section class="section process" id="proceso">
+      <div class="container">
+
+        <div class="section-header center">
+          <p class="eyebrow">Proceso</p>
+          <h2>De la idea al lanzamiento.</h2>
+          <p>
+            Convertimos tu idea artística en un proyecto musical completo, listo para llegar a las infancias de todo el mundo.
+          </p>
+        </div>
+
+        <div class="process-grid">
+
+          <article>
+            <span>01</span>
+            <h3>Escuchamos tu proyecto</h3>
+            <p>Escuchamos tu proyecto, tu idea y lo que querés lograr.</p>
+          </article>
+
+          <article>
+            <span>02</span>
+            <h3>Diseñamos la estrategia</h3>
+            <p>Diseñamos la hoja de ruta: identidad, sonido, contenido audiovisual y estrategia de lanzamiento.</p>
+          </article>
+
+          <article>
+            <span>03</span>
+            <h3>Producimos</h3>
+            <p>Grabamos, editamos y desarrollamos todo lo que tu proyecto necesita para existir.</p>
+          </article>
+
+          <article>
+            <span>04</span>
+            <h3>Lanzamos</h3>
+            <p>Publicamos en todas las plataformas y acompañamos el crecimiento de tu proyecto.</p>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- BABIDIBU TV -->
+    <section class="section babidibu-tv-section" id="babidibutv">
+      <div class="container">
+        <div class="btv-inner" data-reveal>
+
+          <!-- Logo protagonista absoluto -->
+          <img src="imagenes-babidibu-records/logo babidibutv.png" alt="Babidibu TV" class="btv-logo">
+
+          <!-- Badge Muy pronto -->
+          <div class="btv-soon-badge">
+            <span class="btv-soon-dot" aria-hidden="true"></span>
+            <span>Muy pronto</span>
+          </div>
+
+          <!-- Descripción honesta del proyecto futuro -->
+          <p class="btv-desc">
+            Estamos construyendo un nuevo espacio para reunir música, personajes, series, videoclips y contenidos originales dentro del universo Babidibu Records.
+          </p>
+
+          <!-- CTA suave — invita a conocer, no a ver algo que no existe aún -->
+          <a href="#contacto" class="btv-cta-link">Descubri Babidibu TV →</a>
+
+          <!-- Artistas del catálogo como preview del futuro canal -->
+          <div class="btv-artists-preview" aria-label="Artistas del catálogo Babidibu">
+            <div class="btv-artist-thumb">
+              <img src="imagenes-babidibu-records/foto-lastrillizas.png" alt="Las Trillizas de Oro" loading="lazy">
+              <span>Las Trillizas de Oro</span>
+            </div>
+            <div class="btv-artist-thumb">
+              <img src="imagenes-babidibu-records/foto-chani.png" alt="El Mundo de Chani" loading="lazy">
+              <span>El Mundo de Chani</span>
+            </div>
+            <div class="btv-artist-thumb">
+              <img src="imagenes-babidibu-records/foto-benito-tomasa.png" alt="Benito y Tomasa" loading="lazy">
+              <span>Benito y Tomasa</span>
+            </div>
+            <div class="btv-artist-thumb">
+              <img src="imagenes-babidibu-records/foto-dani.png" alt="El Rincón de Dani" loading="lazy">
+              <span>El Rincón de Dani</span>
+            </div>
+            <div class="btv-artist-thumb">
+              <img src="imagenes-babidibu-records/foto-chiquito.png" alt="Hola Soy Chiquito" loading="lazy">
+              <span>Hola Soy Chiquito</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="section contact-section" id="contacto">
+      <div class="container">
+
+        <!-- Header -->
+        <div class="contact-header" data-reveal>
+          <p class="eyebrow">Trabajemos juntos</p>
+          <h2>¿Tenés un proyecto<br>para las infancias?</h2>
+          <p>
+            Trabajamos con artistas, managers, productores y marcas que quieren construir algo especial para las infancias.
+          </p>
+        </div>
+
+      
+
+          <div class="who-grid">
+
+           
+
+          
+
+          </div>
+        </div>
+
+        <!-- Formulario -->
+        <form class="contact-form" id="contactForm" action="#" method="post" enctype="multipart/form-data" data-reveal>
+
+          <div class="contact-form-intro">
+            <h3>Contanos tu proyecto</h3>
+            <p>¿Tenés una canción, un artista, un personaje o una idea para las infancias? Queremos conocerte.</p>
+          </div>
+
+          <div class="form-grid">
+
+            <div class="form-field">
+              <label for="nombre">Tu nombre o apodo</label>
+              <input type="text" id="nombre" name="nombre" placeholder="¿Cómo te gusta que te llamen?" required>
+            </div>
+
+            <div class="form-field">
+              <label for="nombre_artistico">Nombre artístico o proyecto</label>
+              <input type="text" id="nombre_artistico" name="nombre_artistico"
+                placeholder="Ej: El Mundo de Tomi, Las Aventuras de Lola">
+            </div>
+
+            <div class="form-field">
+              <label for="email">Email de contacto</label>
+              <input type="email" id="email" name="email" placeholder="¿Dónde podemos escribirte?" required>
+            </div>
+
+            <div class="form-field">
+              <label for="redes">Instagram, YouTube o Spotify</label>
+              <input type="text" id="redes" name="redes" placeholder="Compartinos tus redes o plataformas">
+            </div>
+
+          </div>
+
+          <div class="form-block">
+            <label class="form-label">¿Qué te gustaría hacer con Babidibu?</label>
+            <div class="goals-grid">
+              <label class="goal-pill"><input type="checkbox" name="objetivo" value="lanzar_musica"><span>Lanzar música</span></label>
+              <label class="goal-pill"><input type="checkbox" name="objetivo" value="soy_artista"><span>Soy artista</span></label>
+              <label class="goal-pill"><input type="checkbox" name="objetivo" value="personaje"><span>Tengo un personaje</span></label>
+              <label class="goal-pill"><input type="checkbox" name="objetivo" value="contenido_infantil"><span>Producir contenido infantil</span></label>
+              <label class="goal-pill"><input type="checkbox" name="objetivo" value="distribucion"><span>Distribución digital</span></label>
+              <label class="goal-pill"><input type="checkbox" name="objetivo" value="babidibu_tv"><span>Babidibu TV</span></label>
+              <label class="goal-pill"><input type="checkbox" name="objetivo" value="colaboracion"><span>Una colaboración</span></label>
+              <label class="goal-pill"><input type="checkbox" name="objetivo" value="otro"><span>Otro proyecto</span></label>
+            </div>
+          </div>
+
+          <div class="form-grid">
+
+            <div class="form-field">
+              <label for="demo_link">Compartinos tu música</label>
+              <input type="url" id="demo_link" name="demo_link"
+                placeholder="Pegá un link de Drive, Spotify, SoundCloud o YouTube">
+            </div>
+
+            <div class="form-field">
+              <label for="archivo">Adjuntar archivo</label>
+              <input type="file" id="archivo" name="archivo" accept=".mp3,.wav,.zip,.pdf,.mp4">
+              <small>Podés subir demos, canciones, presentaciones o material audiovisual.</small>
+            </div>
+
+          </div>
+
+          <div class="form-field">
+            <label for="mensaje">Contanos un poco más</label>
+            <textarea
+              id="mensaje"
+              name="mensaje"
+              rows="6"
+              placeholder="¿Qué estás creando? ¿Qué te gustaría lograr? ¿Cómo imaginás que Babidibu puede ayudarte?"></textarea>
+          </div>
+
+          <div class="form-footer">
+            <button type="submit" class="btn btn-primary btn-large">
+              Presentar proyecto
+            </button>
+            <p class="contact-note">
+              Leemos cada propuesta personalmente. Si creemos que hay una oportunidad para trabajar juntos, nos pondremos en contacto.
+            </p>
+          </div>
+
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
